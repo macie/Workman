@@ -1,0 +1,10 @@
+language: sh
+
+matrix:
+    include:
+        - os: linux
+        - os: windows
+        - os: osx
+
+script:
+    - echo 'It Works!'
